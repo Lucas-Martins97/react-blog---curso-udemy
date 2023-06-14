@@ -99,7 +99,8 @@ textarea {
   background-color: #000;
 }
 .btn.btn-danger:hover {
-  background-color: #dc3545;
+  background-color: #dc3545 !important ;
+  transition: 0.4s;
 }
 button[disabled] {
   background-color: #aaa;
@@ -111,4 +112,8 @@ button[disabled] {
   border: 1px solid #f5c6cb;
   padding: 0.3125rem;
   border-radius: 0.3125rem;
+}
+
+.reset {
+  width: 94% !important;
 }

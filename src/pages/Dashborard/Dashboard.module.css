@@ -1,0 +1,55 @@
+.dashboard {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dashboard h2 {
+  font-size: 2.2em;
+  margin-bottom: 0.5em;
+}
+.dashboard p {
+  color: #aaa;
+  margin-bottom: 1em;
+}
+
+.noposts {
+  text-align: center;
+}
+.noposts p {
+  margin-bottom: 1.5em;
+}
+
+.noposts a {
+  padding: 6.25rem 1.5625rem;
+}
+
+.post_header {
+  font-weight: bold;
+  border-bottom: 0.125rem solid #ccc;
+}
+.post_row {
+  align-items: center;
+  border-bottom: 1px solid #eee;
+}
+
+.post_header,
+.post_row {
+  padding: 0.625rem;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.post_row p {
+  color: #000;
+}
+.post_row button,
+.post_row a {
+  margin: 0 0.3125rem;
+  height: 1.875rem;
+  width: 6.25rem;
+  font: 0.7em;
+}

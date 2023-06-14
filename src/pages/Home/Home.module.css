@@ -1,0 +1,46 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.search_form {
+  max-width: 100%;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2em;
+  box-shadow: none;
+  background-color: #f6fcff;
+}
+
+.search_form input {
+  margin-right: 0.625rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.search_form button {
+  border-radius: 0.9375rem;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 0.625rem;
+  width: 7.5rem;
+  font-weight: bold;
+  border: none;
+  padding: 0.625rem 0.9375rem;
+}
+
+.noposts {
+  text-align: center;
+}
+
+.noposts p {
+  margin-bottom: 1.5em;
+}
+
+.noposts a {
+  padding: 0.625rem 1.5625rem;
+}
